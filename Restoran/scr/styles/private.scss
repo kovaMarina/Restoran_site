@@ -1,0 +1,14 @@
+.private{
+  background-image: url("../img/shocolate-bg.jpg");
+  background-size: cover;
+}
+.book-table_right_wrap{
+  @extend .aboutus_right_wrap;
+  &__img{
+    @extend .aboutus_right_wrap__img;
+    background-image: url("../img/aboutime-img.png");
+  }
+}
+.private_left_wrap__img{
+  background-image: url("../img/wedding.png");
+}

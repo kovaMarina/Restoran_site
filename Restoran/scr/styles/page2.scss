@@ -1,0 +1,55 @@
+.page2{
+  width: 100%;
+  height: 100vh;
+  background: url("../img/specialty's-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.left_wrap2 {
+  flex-basis: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.right_wrap2{
+  flex-basis: 50%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.wrap_left{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #FFFFFF;
+  padding: 20px 20px;
+  text-align: center;
+  font-family: Open Sans;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+.wrapper_center__line{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.page_title{
+  font-family: Banny;
+  font-size: 36px;
+  line-height: 48px;
+}
+.page_subtitle{
+  font-weight: bold;
+  line-height: 28px;
+}
+.page_text{
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 18px;
+}
+.right_wrap2{
+  flex-basis: 50%;
+}

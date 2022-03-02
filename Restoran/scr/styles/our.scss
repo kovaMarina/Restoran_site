@@ -1,0 +1,29 @@
+.our{
+  background: url("../img/specialty's-bg.jpg");
+  background-size: cover;
+}
+.our_right_wrap{
+  color: white;
+}
+.left_wrap__title{}
+.left_wrap__subtitle{}
+.right_wrap__text{
+  color: white;
+}
+.our_left_wrap{
+  @extend .aboutus_right_wrap;
+  &__img{
+    @extend .aboutus_right_wrap__img;
+    background-image: url("../img/Rectangle.png");
+    &::after{
+      top: 25%;
+      transform: translateX(-30%);
+    }
+  }
+}
+.our-choco{
+  background-image: url("../img/shocolate-bg.jpg");
+}
+.our-choco_left_wrap__img{
+  background-image: url("../img/shok.png");
+}

@@ -1,0 +1,16 @@
+
+// 768px = 100%
+@mixin tablet() {
+  @media screen and (max-width: 768px){
+    @content
+  }
+}
+
+
+
+// 576px = 100%
+@mixin phones() {
+  @media screen and (max-width: 576px){
+    @content
+  }
+}
